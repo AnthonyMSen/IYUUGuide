@@ -1,2 +1,4 @@
 # IYUUGuide
-IYUUAutoReseed's tutorial
+IYUUAutoReseed保姆级教程，根据你所使用的环境，找到最适合你的版本。
+跟着教程走，更好地理解辅种是如何工作的，具体教程请看下方链接：
+
