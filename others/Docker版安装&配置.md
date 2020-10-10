@@ -71,6 +71,8 @@ iyuucn/iyuuautoreseed:arm64v8
 
 注意！docker、N1小钢炮用户必须填写`内网ip`，不能填写`127.0.0.1`
 
+如果还是无法连接，请将IYUU容器的ip地址加入到tr和qb的白名单中。
+
 3. 填写合作站信息 [点我跳转](https://github.com/AnthonyMSen/IYUUGuide/blob/main/3.%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%BC%96%E8%BE%91.md#3%E5%A1%AB%E5%86%99%E5%90%88%E4%BD%9C%E7%AB%99%E4%BF%A1%E6%81%AF)
 
 4. 填写剩余站点信息 [点我跳转](https://github.com/AnthonyMSen/IYUUGuide/blob/main/3.%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%BC%96%E8%BE%91.md#4%E5%A1%AB%E5%86%99%E5%89%A9%E4%BD%99%E7%AB%99%E7%82%B9%E4%BF%A1%E6%81%AF)
@@ -84,3 +86,25 @@ iyuucn/iyuuautoreseed:arm64v8
 3. 填最后三个参数 [点我跳转](https://github.com/AnthonyMSen/IYUUGuide/blob/main/5.%E8%BD%AC%E7%A7%BB%E5%81%9A%E7%A7%8D%E9%85%8D%E7%BD%AE.md#4%E6%9C%80%E5%90%8E%E7%9A%84%E4%B8%89%E4%B8%AA%E6%95%B0%E5%AD%97)
 
 4. 配置完成，运行即可！
+
+## 调试&运行
+```sh
+# 运行容器
+docker start IYUUAutoReseed
+
+# 停止容器
+docker stop IYUUAutoReseed
+
+# 进入容器：
+docker exec -it IYUUAutoReseed sh
+```
+
+接下来的操作均是在进入容器后的操作，如果想退出容器，请按`CTRL+P`然后按`CTRL+Q`即可回到宿主机。
+
+```sh
+# 运行IYUU
+php iyuu.php
+
+# 删除缓存
+rm -rf ./torrent/*
+```

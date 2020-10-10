@@ -17,8 +17,6 @@ IYUUAutoReseed保姆级教程，根据你所使用的环境，找到最适合你
 
 [6.常见问题解决方案](https://github.com/AnthonyMSen/IYUUGuide/blob/main/6.%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88.md)
 
-[]()
-
 本教程大部分经过大卫（IYUU原作者）的博客，修改整理后发出，详细、具体内容可以移步到大卫的博客：
 
 常见问题解答？https://gitee.com/ledc/IYUUAutoReseed/tree/master/wiki
