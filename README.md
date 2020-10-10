@@ -15,7 +15,7 @@ IYUUAutoReseed保姆级教程，根据你所使用的环境，找到最适合你
 [5.转移做种配置](https://github.com/AnthonyMSen/IYUUGuide/blob/main/5.%E8%BD%AC%E7%A7%BB%E5%81%9A%E7%A7%8D%E9%85%8D%E7%BD%AE.md)
 
 
-[]()
+[6.常见问题解决方案]()
 
 []()
 
