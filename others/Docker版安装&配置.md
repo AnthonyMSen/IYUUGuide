@@ -75,3 +75,12 @@ iyuucn/iyuuautoreseed:arm64v8
 
 4. 填写剩余站点信息 [点我跳转](https://github.com/AnthonyMSen/IYUUGuide/blob/main/3.%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%BC%96%E8%BE%91.md#4%E5%A1%AB%E5%86%99%E5%89%A9%E4%BD%99%E7%AB%99%E7%82%B9%E4%BF%A1%E6%81%AF)
 
+## 转移做种
+
+1. 填写`'move'`参数 [点我跳转](https://github.com/AnthonyMSen/IYUUGuide/blob/main/5.%E8%BD%AC%E7%A7%BB%E5%81%9A%E7%A7%8D%E9%85%8D%E7%BD%AE.md#1move%E6%80%8E%E4%B9%88%E5%A1%AB)
+
+2. N1小钢炮，`'type'`不用动，保持`0`，`'path'`也不需要动
+
+3. 填最后三个参数 [点我跳转](https://github.com/AnthonyMSen/IYUUGuide/blob/main/5.%E8%BD%AC%E7%A7%BB%E5%81%9A%E7%A7%8D%E9%85%8D%E7%BD%AE.md#4%E6%9C%80%E5%90%8E%E7%9A%84%E4%B8%89%E4%B8%AA%E6%95%B0%E5%AD%97)
+
+4. 配置完成，运行即可！
