@@ -21,6 +21,12 @@
 
 则说明安装成功！
 
+如果出现如下错误，请下载如下链接的vc的环境：
+
+[vc环境](https://support.microsoft.com/zh-cn/help/2977003/the-latest-supported-visual-c-downloads)
+
+![](https://i.loli.net/2020/10/13/TYdjCq9PoNDtHIQ.png)
+
 ## 配置
 
 设置参照 [点我跳转](https://github.com/AnthonyMSen/IYUUGuide/blob/main/3.%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%BC%96%E8%BE%91.md)
