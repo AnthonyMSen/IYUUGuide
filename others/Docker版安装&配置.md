@@ -73,7 +73,13 @@ iyuucn/iyuuautoreseed:arm64v8
 
 注意！docker、N1小钢炮用户必须填写`内网ip`，不能填写`127.0.0.1`
 
-如果还是无法连接，请将IYUU容器的ip地址加入到tr和qb的白名单中。
+如果还是无法连接，请将IYUU容器的ip地址加入到tr和qb的白名单中，如下图：
+
+![](https://i.loli.net/2020/10/23/bthH4QY7J3dpGTM.png)
+
+请打开小钢炮后台的设置，如下图般设置，在两个白名单种添加`172.17.0.*`，此为docker的内网ip：
+
+![](https://i.loli.net/2020/10/23/J94pKlIACR6YMUw.png)
 
 3. 填写合作站信息 [点我跳转](https://github.com/AnthonyMSen/IYUUGuide/blob/main/3.%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E7%BC%96%E8%BE%91.md#3%E5%A1%AB%E5%86%99%E5%90%88%E4%BD%9C%E7%AB%99%E4%BF%A1%E6%81%AF)
 
